@@ -18,9 +18,9 @@ namespace KolkoiKrzyzyk
         public ShapeType ActualShapeType { get; set; }
         public List<Rectangle> Rectangles { get; set; } = new List<Rectangle>();
 
-        private RadioButton rbKolo;
+        private RadioButton rbCircle;
         private RadioButton rbCross;
-        private Rectangle RecTura;
+        private Rectangle RecTour;
 
         public TikTakToeManager()
         {
@@ -34,11 +34,11 @@ namespace KolkoiKrzyzyk
             }
         }
 
-        public TikTakToeManager(RadioButton rbKolo, RadioButton rbCross, Rectangle RecTura) : this()
+        public TikTakToeManager(RadioButton rbCircle, RadioButton rbCross, Rectangle RecTour) : this()
         {            
-            this.rbKolo = rbKolo;
+            this.rbCircle = rbCircle;
             this.rbCross = rbCross;
-            this.RecTura = RecTura;
+            this.RecTour = RecTour;
         }
         
 
@@ -107,11 +107,11 @@ namespace KolkoiKrzyzyk
                 rect.Fill = UriOfShape(ActualShapeType);
                 Rects[indexers[0], indexers[1]] = ActualShapeType;
                 Rectangles.Add(rect);
-                rbKolo.IsEnabled = false;
+                rbCircle.IsEnabled = false;
                 rbCross.IsEnabled = false;
                 isWin = CheckWin();
                 ChangeTypeShape();
-                RecTura.Fill = UriOfShape(ActualShapeType);               
+                RecTour.Fill = UriOfShape(ActualShapeType);               
             }
 
             if (isWin)
@@ -152,20 +152,20 @@ namespace KolkoiKrzyzyk
             }
 
             Rectangles = new List<Rectangle>();
-            rbKolo.IsEnabled = true;
+            rbCircle.IsEnabled = true;
             rbCross.IsEnabled = true;   
         }
 
         public void CheckRbsAndFillRectTura()
         {
-            if (rbKolo.IsChecked == true)
+            if (rbCircle.IsChecked == true)
             {
-                RecTura.Fill = UriOfShape(ShapeType.Circle);
+                RecTour.Fill = UriOfShape(ShapeType.Circle);
                 ActualShapeType = ShapeType.Circle;
             }
             else
             {
-                RecTura.Fill = UriOfShape(ShapeType.Cross);
+                RecTour.Fill = UriOfShape(ShapeType.Cross);
                 ActualShapeType = ShapeType.Cross;
             }
         }
