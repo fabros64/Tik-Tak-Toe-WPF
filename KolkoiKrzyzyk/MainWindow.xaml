@@ -1,0 +1,130 @@
+﻿<Window x:Class="KolkoiKrzyzyk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KolkoiKrzyzyk"
+        mc:Ignorable="d"
+        Title="Kółko i krzyżyk" Height="400" Width="800" ResizeMode="NoResize" Background="LightGray">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Column="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Column="0" Row="0">
+                <Rectangle Name="rec00" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec00_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+            <Grid Grid.Column="0" Row="1">
+                <Rectangle Name="rec10" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec10_MouseDown" >
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+            <Grid Grid.Column="0" Row="2">
+                <Rectangle Name="rec20" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec20_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+
+            <Grid Grid.Column="1" Row="0">
+                <Rectangle Name="rec01" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec01_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+            <Grid Grid.Column="1" Row="1">
+                <Rectangle Name="rec11" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec11_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+            <Grid Grid.Column="1" Row="2">
+                <Rectangle Name="rec21" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec21_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+
+            <Grid Grid.Column="2" Row="0">
+                <Rectangle Name="rec02" Stroke="Black"  StrokeThickness="6" Cursor="Hand" MouseDown="Rec02_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+            <Grid Grid.Column="2" Row="1">
+                <Rectangle Name="rec12" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec12_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+            <Grid Grid.Column="2" Row="2">
+                <Rectangle Name="rec22" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec22_MouseDown">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+        </Grid>
+
+        <Grid Column="1">
+               <Grid.RowDefinitions>
+                   <RowDefinition Height="*"></RowDefinition>
+                   <RowDefinition Height="*"></RowDefinition>
+                   <RowDefinition Height="*"></RowDefinition>
+               </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Label FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center">Tura gracza:</Label>
+                </Grid>
+                <Grid Grid.Column="1" Margin="30">
+                    <Rectangle Name="RecTura" Stroke="Black" StrokeThickness="6">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="Graphics/cross.PNG"></ImageBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+            </Grid>
+            <Grid Row="1">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <RadioButton Name="rbCross" IsChecked="true" Margin="10" FontSize="14" Checked="RbCross_Checked">Zaczyna krzyżyk</RadioButton>
+                <RadioButton Name="rbKolo" Margin="10" FontSize="14" Checked="RbKolo_Checked">Zaczyna kółko</RadioButton>
+                </StackPanel>
+            </Grid>
+            <Grid Row ="2">
+                <Button Margin="100,40,100,40" FontSize="30" Click="Button_Click" Background="CornflowerBlue">Reset</Button>
+            </Grid>
+        </Grid>
+    </Grid>
+
+
+
+</Window>

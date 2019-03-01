@@ -1,0 +1,15 @@
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\bin\Debug\KolkoiKrzyzyk.exe.config
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\bin\Debug\KolkoiKrzyzyk.exe
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\bin\Debug\KolkoiKrzyzyk.pdb
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk.csprojAssemblyReference.cache
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\MainWindow.g.cs
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\App.g.cs
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk_MarkupCompile.cache
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk_MarkupCompile.lref
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\MainWindow.baml
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk.g.resources
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk.Properties.Resources.resources
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk.csproj.GenerateResource.cache
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk.csproj.CoreCompileInputs.cache
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk.exe
+C:\Users\Michał Fabrowski\source\repos\KolkoiKrzyzyk\KolkoiKrzyzyk\obj\Debug\KolkoiKrzyzyk.pdb
