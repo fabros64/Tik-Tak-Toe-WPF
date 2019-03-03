@@ -42,54 +42,10 @@ namespace KolkoiKrzyzyk
             RecTura.Fill = TikTakToe.UriOfShape(ShapeType.Circle);
         }
 
-        private void Rec20_MouseDown(object sender, MouseButtonEventArgs e)
-        {       
-            TikTakToe.UpdateGraphicOnRect(rec20, (f, s) => TikTakToe.Rects[f, s]);
-        }
-
-        private void Rec10_MouseDown(object sender, MouseButtonEventArgs e)
+        private void Rectangle_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            TikTakToe.UpdateGraphicOnRect(rec10, (f, s) => TikTakToe.Rects[f, s]);
-        }
-
-        private void Rec00_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TikTakToe.UpdateGraphicOnRect(rec00, (f, s) => TikTakToe.Rects[f, s]);
-        }
-
-        private void Rec01_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TikTakToe.UpdateGraphicOnRect(rec01, (f, s) => TikTakToe.Rects[f, s]);
-        }
-
-        private void Rec11_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TikTakToe.UpdateGraphicOnRect(rec11, (f, s) => TikTakToe.Rects[f, s]);
-        }
-
-        private void Rec21_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TikTakToe.UpdateGraphicOnRect(rec21, (f, s) => TikTakToe.Rects[f, s]);
-        }
-
-        private void Rec02_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TikTakToe.UpdateGraphicOnRect(rec02, (f, s) => TikTakToe.Rects[f, s]);
-        }
-
-        private void Rec12_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TikTakToe.UpdateGraphicOnRect(rec12, (f, s) => TikTakToe.Rects[f, s]);
-
-        }
-
-        private void Rec22_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TikTakToe.UpdateGraphicOnRect(rec22, (f, s) => TikTakToe.Rects[f, s]);
-
-        }
-
-        
+            TikTakToe.UpdateGraphicOnRect(sender as Rectangle, (f, s) => TikTakToe.Rects[f, s]);
+        }              
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {

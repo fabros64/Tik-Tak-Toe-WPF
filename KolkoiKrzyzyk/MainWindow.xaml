@@ -25,21 +25,21 @@
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid Grid.Column="0" Row="0">
-                <Rectangle Name="rec00" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec00_MouseDown">
+                <Rectangle Name="rec00" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
                 </Rectangle>
             </Grid>
             <Grid Grid.Column="0" Row="1">
-                <Rectangle Name="rec10" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec10_MouseDown" >
+                <Rectangle Name="rec10" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown" >
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
                 </Rectangle>
             </Grid>
             <Grid Grid.Column="0" Row="2">
-                <Rectangle Name="rec20" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec20_MouseDown">
+                <Rectangle Name="rec20" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
@@ -47,21 +47,21 @@
             </Grid>
 
             <Grid Grid.Column="1" Row="0">
-                <Rectangle Name="rec01" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec01_MouseDown">
+                <Rectangle Name="rec01" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
                 </Rectangle>
             </Grid>
             <Grid Grid.Column="1" Row="1">
-                <Rectangle Name="rec11" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec11_MouseDown">
+                <Rectangle Name="rec11" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
                 </Rectangle>
             </Grid>
             <Grid Grid.Column="1" Row="2">
-                <Rectangle Name="rec21" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec21_MouseDown">
+                <Rectangle Name="rec21" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
@@ -69,21 +69,21 @@
             </Grid>
 
             <Grid Grid.Column="2" Row="0">
-                <Rectangle Name="rec02" Stroke="Black"  StrokeThickness="6" Cursor="Hand" MouseDown="Rec02_MouseDown">
+                <Rectangle Name="rec02" Stroke="Black"  StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
                 </Rectangle>
             </Grid>
             <Grid Grid.Column="2" Row="1">
-                <Rectangle Name="rec12" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec12_MouseDown">
+                <Rectangle Name="rec12" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
                 </Rectangle>
             </Grid>
             <Grid Grid.Column="2" Row="2">
-                <Rectangle Name="rec22" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rec22_MouseDown">
+                <Rectangle Name="rec22" Stroke="Black" StrokeThickness="6" Cursor="Hand" MouseDown="Rectangle_MouseDown">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Graphics/blank.PNG"></ImageBrush>
                     </Rectangle.Fill>
